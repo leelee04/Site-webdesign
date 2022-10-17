@@ -196,31 +196,18 @@ hr {
     color: rgb(175, 130, 172);
     font-weight: bold;
 }
-.box{
+.box.bloc2{
     margin: 10px;
     padding: 25px;
     margin-left: 760px;
     margin-right: auto;
     margin-top: 46px;
-    width: 43%;
+    width: 41%;
     height: 398px;
     background-color: rgb(93, 196, 195);
     box-shadow: inset 0px 0px 8px 4px white;
 }
-.bloc2{
-    width: 40%;
-    height: 451px;
-    margin: 10px;
-    padding: 25px;
-    margin-left: 68px;
-    margin-top: -407px;
-    background-color: rgb(93, 196, 195);
-    box-shadow: inset 0px 0px 8px 4px white;
-    
-}
-.blocs{
-    display: flex;
-}
+
 .titleblocs{
     font-size: 25px;
     display: flex;
@@ -237,4 +224,36 @@ hr {
     font-size: 16px;
     font-family: Open sans;
     color: white;
+}
+.twoblocs{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 31px;
+    
+}
+.box1{
+    width: 35%;
+    height: 485px;
+    margin: 10px;
+    padding: 25px;
+    border: 1px solid black;
+    background-color: #BF1080;
+    box-shadow: inset 12px 1px 1px 1px black;
+}
+.box2{
+    width: 35%;
+    height: 485px;
+    margin: 10px;
+    padding: 25px;
+    border: 1px solid black;
+    background-color: #BF1080;
+    box-shadow: inset 12px 1px 1px 1px black;
+}
+.titlebloc{
+    font-family: open sans;
+    display: flex;
+    justify-content: space-around;
+}
+.titlebloc2{
+
 }
